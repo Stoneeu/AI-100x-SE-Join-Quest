@@ -1,12 +1,12 @@
 package steps;
 
-import ai._x.se.quest.CheesService;
+import ai._x.se.quest.ChessService;
 import io.cucumber.java.en.*;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.Map;
 
-public class CheesSteps {
-    CheesService service = new CheesService();
+public class ChessSteps {
+    ChessService service = new ChessService();
     String lastPiece;
     int lastFromRow, lastFromCol, lastToRow, lastToCol;
     boolean lastLegal;

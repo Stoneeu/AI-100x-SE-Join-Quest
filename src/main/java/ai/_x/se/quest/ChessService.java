@@ -2,7 +2,7 @@ package ai._x.se.quest;
 
 import java.util.*;
 
-public class CheesService {
+public class ChessService {
     public static final int ROWS = 10;
     public static final int COLS = 9;
 
